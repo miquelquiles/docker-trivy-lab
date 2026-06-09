@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout del repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         # Descarga el código del repositorio para poder construir la imagen
 
       - name: Instalar Trivy (recomendado)
