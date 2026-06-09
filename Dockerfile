@@ -2,6 +2,7 @@
 # DOCKERFILE VULNERABLE - LABORATORIO TRIVY
 # =============================================
 #
+
 # OBJETIVO: Identificar y corregir los problemas de seguridad
 # que detecta Trivy para que el escaneo pase sin errores.
 #
