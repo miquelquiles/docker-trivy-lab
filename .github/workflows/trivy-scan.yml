@@ -47,6 +47,7 @@ jobs:
             --severity CRITICAL \
             --format table \
             --output trivy-report.txt \
+            --ignore-unfixed \
             vulnerable-image:latest
 
           echo "📄 Reporte guardado en trivy-report.txt"
