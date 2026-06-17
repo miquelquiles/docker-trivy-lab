@@ -37,6 +37,7 @@ RUN apt-get install -y openssl
 # Se han quitado estos paquetes inseguros (curl, wget) ya no pasan el escaneo de Trivy (CVE's críticas)
 # RUN apt-get install -y curl
 # RUN apt-get install -y wget
+
 RUN apt-get install -y netcat-traditional
 # Sin rm -rf /var/lib/apt/lists/* → la caché de apt se queda en la imagen
 
